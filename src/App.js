@@ -4,11 +4,11 @@ import './App.css';
 function App() {
   return (
     <div>
-    <div id="admin-sidenav">
+    <div id="dashboard-sidenav">
       <div className="logo-container">
         <span className="admin-logo"> <b>staff area 2023</b></span>
       </div>
-      <div className="admin-sidenav-content">
+      <div className="dashboard-sidenav-content">
         <a className="sidenav-item active-sidenav">My Account</a>
         <a className="sidenav-item">Activities</a>
         <a className="sidenav-item">Orders</a>
@@ -23,7 +23,7 @@ function App() {
         <a className="sidenav-item">Log Out</a>
       </div>
     </div>
-    <div id="dashboard-viewer">
+    <div id="dashboard">
       <br />
       <div className="account-section">
         <div className="account-img" id="acc-img" onclick="setTAColor" />
@@ -31,36 +31,36 @@ function App() {
         <span className="display-name-form"><b>Task Assignment Colour</b> </span>
         <div id="color-flex" className="color-list">
           <span className="color-option">
-            <span className="pink color active-color" />
-            <span className="color-label">Pink</span>
+            <span className="pink color active-circle" />
+            <span className="color-name">Pink</span>
           </span>
           <span className="color-option">
             <span className="blue color" />
-            <span className="color-label">Blue</span>
+            <span className="color-name">Blue</span>
           </span>
           <span className="color-option">
             <span className="green color" />
-            <span className="color-label">Green</span>
+            <span className="color-name">Green</span>
           </span>
           <span className="color-option">
             <span className="red color" />
-            <span className="color-label">Red</span>
+            <span className="color-name">Red</span>
           </span>
           <span className="color-option">
             <span className="yellow color" />
-            <span className="color-label">Yellow</span>
+            <span className="color-name">Yellow</span>
           </span>
         </div>
         <br />
-        <span className="save-btn">Save color</span>
+        <span className="save-button">Save color</span>
         <br />
         <span className="display-name-form"><b>Display Name</b> </span>
         <div id="displayname" className="role">
           <input type="text" name="displayname" id className="edit-input" />
         </div>
         <br />
-        <span className="save-btn">Save Display Name</span>
-        <div className="edit-btn" onclick="setDisplayName">
+        <span className="save-button">Save Display Name</span>
+        <div className="edit-button" onclick="setDisplayName">
           <span className>Edit Display Name</span>
         </div>
         <div className="account-info">
@@ -73,8 +73,8 @@ function App() {
       <div className="account-section">
         <span className="h1">Application</span>
         <div className="account-info">
-          <a className="application-options">Teams</a>
-          <a className="application-options">Outlook</a>
+          <a className="app-section">Teams</a>
+          <a className="app-section">Outlook</a>
         </div>
       </div>
     </div>
