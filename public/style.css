@@ -265,3 +265,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Responsive styles for screens up to 1065x503 */
+@media only screen and (max-width: 1065px) and (max-height: 503px) {
+    .color-list {
+        flex-wrap: wrap;
+    }
+
+    .color-option {
+        width: 100%; /* Make each color option take the full width */
+        margin-bottom: 15px; /* Add some spacing between the color options */
+    }
+}
